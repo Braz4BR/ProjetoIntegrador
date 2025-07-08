@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaConsultas_Exames">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="347dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="240dp"
+        android:text="03/10/2024 - Dr. matheus"
+        android:textAlignment="viewStart"
+        android:textColor="#0B0B0B"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="348dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="332dp"
+        android:text="Procure por nome ou data"
+        android:textColor="#020202"
+        android:textColorLink="#F8F5F5"
+        app:iconTint="#F3F3F6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#EFF0F2" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="48dp"
+        android:text="Consultas / Exames"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="123dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="88dp"
+        android:text="Consultas"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="286dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="204dp"
+        android:text="Eletroencefalograma (EEG)"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="123dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="88dp"
+        android:text="Exames"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SearchView
+        android:layout_width="157dp"
+        android:layout_height="53dp"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="140dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
